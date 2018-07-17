@@ -6,7 +6,7 @@ package elseif;
 
 import javax.swing.JOptionPane;
 
-public class BirthdayReminder {
+public class BirthdayReminder {   }
 
 	public static void main(String[] args) {
 	
@@ -16,10 +16,23 @@ public class BirthdayReminder {
 		String myBirthday = "April 16th";
 
 		// 2. Find out which birthday the user wants and and store their response in a variable
-	
+String day=	JOptionPane.showInputDialog("who brithday is in");
 		// 3. Print out what the user typed
-		
-		// 4. if user asked for "mom"
+		System.out.println(day);
+		if (day.equals("mom")){
+			System.out.println(momsBirthday);
+		}
+		else if (day.equals("dad")) {
+			System.out.println(dadsBirthday);
+		}
+		else if (day.equals("mine")) {
+			System.out.println(myBirthday);
+		}
+		else if (day.equals("")) {
+			JOptionPane.showInputDialog(null,"Sorry, i don't remember that person's birthday!");
+		}
+			
+			// 4. if user asked for "mom"
 			//print mom's birthday
 		// 5. if user asked for "dad"
 			// print dad's birthday
@@ -27,5 +40,5 @@ public class BirthdayReminder {
 			// print myBirthday
 		//7. otherwise print "Sorry, i don't remember that person's birthday!"
 
-	} 
-}
+	 
+

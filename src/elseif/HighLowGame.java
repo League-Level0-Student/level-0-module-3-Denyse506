@@ -22,7 +22,7 @@ public class HighLowGame {
 			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
 			 int something= (Integer.parseInt(nothing));
 			// 5. if the guess is correct
-				JOptionPane.showConfirmDialog(null, "correct")
+				JOptionPane.showConfirmDialog(null, "correct");
 			 // 6. Win
 				// 12h. Use "System.exit(0);" to quit the game if the user guessed the right answer.
 			// 7. if the guess is high
@@ -34,7 +34,7 @@ public class HighLowGame {
 					JOptionPane.showConfirmDialog(null,"Low number higher  number ");
 					}
 				else if (something>random) {
-					JOptionPane.showConfirmDialog(null, "High number lower number ")
+					JOptionPane.showConfirmDialog(null, "High number lower number ");
 				}
 			// 9. if the guess is low
 				// 10. Tell them it's too low

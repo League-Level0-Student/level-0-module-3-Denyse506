@@ -14,7 +14,7 @@ public class RobotColorChooser {
 		//1. Create a new Robot
 
       Robot  robot= new Robot();
-	System.out.println(robot);
+   System.out.println(robot);
 	
 	//3. Ask the user what color they would like the robot to draw
 	for (int g = 0; g < 6; g++) {
